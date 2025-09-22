@@ -1,3 +1,4 @@
+
 const fs = require('fs');
 const config = require('../config');
 const { cmd, commands } = require('../command');
@@ -17,12 +18,12 @@ cmd({
         
         const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ╔═══════◇◆◇═══════╗
-『𝗨𝗟𝗧𝗜𝗠𝗔𝗧𝗘 𝗕𝗢𝗧 𝗠𝗘𝗡𝗨』
+『ZORAIBXHASSAN』
 ╚═══════◇◆◇═══════╝
 ⟬★⟭────────────────
 ⟬★⟭ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡
 ⟬★⟭────────────────
-│ 👑  Owner » *ARSLAN*
+│ 👑  Owner » *ZORAIB*
 │ 🤖  Baileys » *Multi Device*
 │ 💻  Type » *NodeJs*
 │ 🚀  Platform » *Heroku*

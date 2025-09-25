@@ -1,10 +1,10 @@
-# Muzammil-MD
+# ZORAIB-XD
 <p align="center">
   <img src="https://files.catbox.moe/yxyid8.jpg" alt="ZORAIB-XD Logo" width="300" style="border-radius:50%;" />
 </p>
 
 <h1 align="center">⚡ ZORAIB-XD ⚡</h1>
-<h3 align="center">Your Personal WhatsApp AI Bot 🤖 | By: Muzammil | Owner: 923247947238</h3>
+<h3 align="center"> WHATSAPP AI BOT🤖 | By: ZORAIB| Owner: 923247947238</h3>
 
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" width="100%"/>
@@ -15,7 +15,7 @@
 ## 🚀 Project Status
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=hissari-786&label=Profile%20Views&color=9D00FF&style=for-the-badge"/>
+  <img src="https://komarev.com/ghpvc/?username=Zaibi448&label=Profile%20Views&color=9D00FF&style=for-the-badge"/>
   <img src="https://img.shields.io/github/last-commit/Zaibi448/ZORAIB-XD?color=9D00FF&style=for-the-badge"/>
   <img src="https://img.shields.io/github/repo-size/Zaibi448/ZORAIB-XD?color=9D00FF&style=for-the-badge"/>
   <img src="https://img.shields.io/github/stars/Zaibi448/ZORAIB-XD?color=9D00FF&style=for-the-badge"/>

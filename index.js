@@ -120,7 +120,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there Hissari-Boy-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet BarbieX-MD WhatsApp Bot.\n\n *Thanks for using Hissari-Boy-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb6Qyym7YSd3VRCxxQ1B \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/hissari-bacha/Hissari-Bacha.git\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ Hissari-Boy-MD Official ❣️ \ud83d\udda4`;
+  let up = `*THANKS FOR CHOOSING ZORAIB-XD! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet ZORAIB-XD WhatsApp Bot.\n\n *ZORAIB-KASHMIRI \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \https://whatsapp.com/channel/0029VbAzg127oQhgVzEERx2E\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Zaibi448/Zaibi448.git\n\n> © POWERED BYE ZORAIB MALIK Official ❣️ \ud83d\udda4`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/qeq0cg.jpg` }, caption: up })
   }
   })

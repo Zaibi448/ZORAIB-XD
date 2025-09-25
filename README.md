@@ -44,7 +44,7 @@
 
 ---
 
-## 🚀 Deploy Muzammil-MD
+## 🚀 Deploy ZORAIB-XD
 
 <p align="center">
   <a href="https://dashboard.heroku.com/new?template=https://github.com/Zaibi448/ZORAIB-XD">
@@ -61,11 +61,11 @@
 ## 📢 Support & Community
 
 <p align="center">
-  <a href="https://whatsapp.com/channel/0029Vb6Qyym7YSd3VRCxxQ1B">
+  <a href="https://whatsapp.com/channel/0029VbAzg127oQhgVzEERx2E">
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp"/>
   </a>
   <br/><br/>
-  <a href="https://api.whatsapp.com/send?phone=923142854207">
+  <a href="https://api.whatsapp.com/send?phone=9203247947238">
     <img src="https://img.shields.io/badge/Contact-Owner-25D366?style=for-the-badge&logo=whatsapp"/>
   </a>
 </p>
@@ -75,4 +75,3 @@
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" width="100%"/>
 </p>
-

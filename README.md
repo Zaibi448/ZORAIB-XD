@@ -34,7 +34,7 @@
 
 ---
 
-## 🍴 Fork This Repo
+## 🍴 Fork This Repo phudi dyo
 
 <p align="center">
   <a href="https://github.com/Zaibi448/ZORAIB-XD/fork">

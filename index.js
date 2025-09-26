@@ -120,7 +120,7 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*THANKS FOR CHOOSING ZORAIB-XD! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet ZORAIB-XD WhatsApp Bot.\n\n *ZORAIB-KASHMIRI \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \https://whatsapp.com/channel/0029VbAzg127oQhgVzEERx2E\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Zaibi448/Zaibi448.git\n\n> © POWERED BYE ZORAIB MALIK Official ❣️ \ud83d\udda4`;
+  let up = `*THANKS FOR CHOOSING ZORAIB-XD! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet ZORAIB-XD WhatsApp Bot.\n\n *ZORAIB-KASHMIRI\ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \https://whatsapp.com/channel/0029VbAzg127oQhgVzEERx2E\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Zaibi448/ZORAIB-XD.git\n\n> © `POWERED BYE ZORAIB KASHMIRI` Official ❣️ \ud83d\udda4`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/qeq0cg.jpg` }, caption: up })
   }
   })
@@ -727,7 +727,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
             for (let i of kon) {
                 list.push({
                     displayName: await conn.getName(i + '@s.whatsapp.net'),
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await conn.getName(
+                    vcard: `BEGIN:VCARD\nVERSION:1.0\nN:${await conn.getName(
                         i + '@s.whatsapp.net',
                     )}\nFN:${
                         global.OwnerName

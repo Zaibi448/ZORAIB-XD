@@ -1,12 +1,7 @@
 # ZORAIB-XD
 <p align="center">
   <img src="https://files.catbox.moe/yxyid8.jpg" alt="ZORAIB-XD 
-<h1 align="center">⚡ ZORAIB-XD ⚡</h1>
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" width="100%"/>
-</p>
-
----
+<h1 align="center">⚡ ZORAIB-XD
 
 ## 🚀 Project Status
 

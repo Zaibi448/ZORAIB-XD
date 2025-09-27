@@ -1,8 +1,6 @@
 # ZORAIB-XD
 <p align="center">
-  <img src="https://files.catbox.moe/yxyid8.jpg" alt="ZORAIB-XD Logo" width="300" style="border-radius:50%;" />
-</p>
-
+  <img src="https://files.catbox.moe/yxyid8.jpg" alt="ZORAIB-XD 
 <h1 align="center">⚡ ZORAIB-XD ⚡</h1>
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" width="100%"/>

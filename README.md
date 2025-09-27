@@ -4,7 +4,7 @@
 </p>
 
 <h1 align="center">⚡ ZORAIB-XD ⚡</h1>
-<h3 align="center"> WHATSAPP AI BOT🤖 | By: ZORAIB| Owner: 923247947238</h3>
+
 
 <p align="center">
   <img src="https://i.imgur.com/dBaSKWF.gif" width="100%"/>

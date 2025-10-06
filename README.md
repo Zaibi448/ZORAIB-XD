@@ -18,7 +18,7 @@
 ## 🔑 Get Session
 
 <p align="center">
-  <a href="https://zoraib-ak-9iqr.onrender.com/">
+  <a href="https://zoraib-ak-1.onrender.com/">
     <img src="https://img.shields.io/badge/Get%20Session-ZORAIB%20XD-9D00FF?style=for-the-badge&logo=superuser"/>
   </a>
 </p>

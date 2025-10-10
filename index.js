@@ -69,7 +69,7 @@ const {
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
     if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
     
-    const sessdata = config.SESSION_ID.replace("ZORAIB-XD~eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNkdFZXJpOTV6a0ZRb0lCbGI0RXlqRTl2YlphOGlUa1pSRU1LT1FtbVdsRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiL1U4MmlYdEdUbWZ0d3ZrL1pDdS9wbGdkN3lzc1lQcGNnbDU5SXhpa2htST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJlR1h0SmtLTnJ3NWt0KzVYT2U0YmwxN3N0VWFKNzhUT2tFTnNPeWVNRWswPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJwZzhVeWV4RDVaby9tMlk0NVFmVEV6Nlg1RWcrKzArNWlTWnBNTzByZmhjPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IklBa3hvR01UQzlZQm1Ya2RWOWc4dXFxYzhzNG13ZDE1ZllTNEFYZU1tVVk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Imtrc3ViRSttU0pTUVNwTE1GNzAvRWpPWk1SMWdoTW83Mk11UkdXSU1TWDg9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU0lRQldJMHd1WU1HdHpFSS95SVhUcW0wUnRDYVI1c0krOE9uSW9EQjVXOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidnFUcTRiTFpkZElMVGw0a2YyQTIycXdRV1ZWN09iQk5iREF3ODNkVFIyMD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InZOeUF4MDZZeXE4L0VmRWtHUTZRcG1ENHhNcEtWWHJwN1lUdnJGeW1Id2RKalpnVnZVTUp4Z085QlNZcGdOYlg3ZmMwWHJvZTBuMzRFeWY4cTFsS0RRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjAyLCJhZHZTZWNyZXRLZXkiOiJZL2J6V096MUV1SlpxN2FiYlluVUR5Mms0a2JYUkpKM05GUDBJUU9Mdm13PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiJXTUNaWEhXQyIsIm1lIjp7ImlkIjoiOTIzNDM0ODczODQ2OjJAcy53aGF0c2FwcC5uZXQiLCJsaWQiOiIyNjQzNjQ0MzEwNDQ2MjA6MkBsaWQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0o2YTkrOEJFSTNpb3NjR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ill3N0xHbCs3K3cwZTJpcVJ5QVIydG1QMFhFdnVOMDNWY1cwUEE5eVZQVUE9IiwiYWNjb3VudFNpZ25hdHVyZSI6InAzazRvcU1qcFBoTFFic0REUS93QTBndDZIaWZobkduc3hsUVJqUHlUWXlQYzlVZUkyUldjeWxqbWhjTEg2WTZianVIeVJtc3RGNE8zMmZ1cy9hMUR3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiJ6UHhJbnprdFR6WUJFK0dqR1hKUU5mYTlJMFU0TWw0ZG5VL1I0dnViQVlQeDF6THdUeDg1T2RrZUJwbnh2NnlPZW9saTBvMWtENk5zVVRZdU15QTBCQT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjkyMzQzNDg3Mzg0NjoyQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQldNT3l4cGZ1L3NOSHRvcWtjZ0VkclpqOUZ4TDdqZE4xWEZ0RHdQY2xUMUEifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBZ0lEUT09In0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc2MDA4MDE0NCwibGFzdFByb3BIYXNoIjoiUFdrNUIifQ==~", '');
+    const sessdata = config.SESSION_ID.replace("ZORAIB-XD~", '');
     try {
         // Decode base64 string
         const decodedData = Buffer.from(sessdata, 'base64').toString('utf-8');
@@ -120,8 +120,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*THANKS FOR CHOOSING HASSU-XD! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet HASSU-XD WhatsApp Bot.\n\n *ZORAIB-KASHMIRI\ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \https://whatsapp.com/channel/0029VbAzg127oQhgVzEERx2E\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Zaibi448/HASSU-XD.git\n\n> © `POWERED BYE ZORAIB KASHMIRI` Official ❣️ \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/qeq0cg.jpg` }, caption: up })
+  let up = `*Hello there MUZAMMIL-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet BarbieX-MD WhatsApp Bot.\n\n *Thanks for using MUZAMMIL-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb6Qyym7YSd3VRCxxQ1B \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/hissari-786/Muzammil-MD.git\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ Hissari-Boy-MD Official ❣️ \ud83d\udda4`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/fqz28g.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -727,7 +727,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
             for (let i of kon) {
                 list.push({
                     displayName: await conn.getName(i + '@s.whatsapp.net'),
-                    vcard: `BEGIN:VCARD\nVERSION:1.0\nN:${await conn.getName(
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await conn.getName(
                         i + '@s.whatsapp.net',
                     )}\nFN:${
                         global.OwnerName
@@ -776,7 +776,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("ZORAIB-XD STARTED ✅");
+  res.send("BarbieX-MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {

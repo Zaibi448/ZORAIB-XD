@@ -1,1 +1,46 @@
-const _0x52fe51=_0x3654;(function(_0x1ebbba,_0x201ae0){const _0x5caa46=_0x3654,_0x1be354=_0x1ebbba();while(!![]){try{const _0x18500c=parseInt(_0x5caa46(0xdc))/0x1+parseInt(_0x5caa46(0xd9))/0x2*(-parseInt(_0x5caa46(0xd0))/0x3)+-parseInt(_0x5caa46(0xd1))/0x4*(-parseInt(_0x5caa46(0xcc))/0x5)+-parseInt(_0x5caa46(0xbc))/0x6+parseInt(_0x5caa46(0xdb))/0x7*(-parseInt(_0x5caa46(0xc9))/0x8)+-parseInt(_0x5caa46(0xd6))/0x9+parseInt(_0x5caa46(0xdd))/0xa*(parseInt(_0x5caa46(0xd5))/0xb);if(_0x18500c===_0x201ae0)break;else _0x1be354['push'](_0x1be354['shift']());}catch(_0x4220b9){_0x1be354['push'](_0x1be354['shift']());}}}(_0x1ee1,0xbb648));const config=require(_0x52fe51(0xcf)),{cmd}=require(_0x52fe51(0xce)),DY_SCRAP=require(_0x52fe51(0xc3)),dy_scrap=new DY_SCRAP();function replaceYouTubeID(_0x23a32a){const _0x358b93=_0x52fe51,_0x1831d4=/(?:youtube\.com\/(?:.*v=|.*\/)|youtu\.be\/|youtube\.com\/embed\/|youtube\.com\/shorts\/)([a-zA-Z0-9_-]{11})/,_0x33aa15=_0x23a32a[_0x358b93(0xd8)](_0x1831d4);return _0x33aa15?_0x33aa15[0x1]:null;}function _0x3654(_0x1b1485,_0x3e1dd9){const _0x1ee124=_0x1ee1();return _0x3654=function(_0x3654b9,_0x36d964){_0x3654b9=_0x3654b9-0xbc;let _0x37640f=_0x1ee124[_0x3654b9];return _0x37640f;},_0x3654(_0x1b1485,_0x3e1dd9);}cmd({'pattern':_0x52fe51(0xda),'alias':[_0x52fe51(0xcb),_0x52fe51(0xc7)],'react':'🎵','desc':_0x52fe51(0xc4),'category':'download','use':_0x52fe51(0xd7),'filename':__filename},async(_0x349988,_0x3456aa,_0x1bd284,{from:_0x57d2e6,q:_0x9edc0b,reply:_0x5d3dc1})=>{const _0x10df36=_0x52fe51;try{if(!_0x9edc0b)return await _0x5d3dc1(_0x10df36(0xca));let _0x1d592c=_0x9edc0b['startsWith']('https://')?replaceYouTubeID(_0x9edc0b):null;if(!_0x1d592c){const _0x5270ca=await dy_scrap[_0x10df36(0xde)](_0x9edc0b);if(!_0x5270ca?.[_0x10df36(0xc2)]?.[_0x10df36(0xbf)])return await _0x5d3dc1(_0x10df36(0xc0));_0x1d592c=_0x5270ca[_0x10df36(0xc2)][0x0][_0x10df36(0xc8)];}const _0x1918a4=await _0x5d3dc1(_0x10df36(0xbd)),_0x4513fe=await dy_scrap['ytmp3']('https://youtube.com/watch?v='+_0x1d592c);let _0x28db19=_0x4513fe?.[_0x10df36(0xd3)]?.[_0x10df36(0xd2)]?.['url'];if(!_0x28db19){await _0x349988[_0x10df36(0xc5)](_0x57d2e6,{'text':_0x10df36(0xcd),'edit':_0x1918a4[_0x10df36(0xbe)]});return;}await _0x349988[_0x10df36(0xc5)](_0x57d2e6,{'audio':{'url':_0x28db19},'mimetype':'audio/mpeg','fileName':_0x10df36(0xc1)},{'quoted':_0x1bd284});}catch(_0x2d022b){console[_0x10df36(0xd4)](_0x2d022b),await _0x349988[_0x10df36(0xc5)](_0x57d2e6,{'react':{'text':'❌','key':_0x1bd284[_0x10df36(0xbe)]}}),await _0x5d3dc1(_0x10df36(0xc6)+(_0x2d022b['message']||'Error!'));}});function _0x1ee1(){const _0x4ce9f3=['5216240TmUChL','download','result','error','158774TuFUvE','1621062vYMVBw','.song\x20<Text\x20or\x20YT\x20URL>','match','2LqnkNu','play2','28hFYOyr','350801oentBL','870DfPRVt','ytsearch','7135866xUikxL','⏳\x20Processing\x20your\x20audio...','key','length','❌\x20No\x20results\x20found!','audio.mp3','results','@dark-yasiya/scrap','Download\x20Ytmp3','sendMessage','❌\x20An\x20error\x20occurred:\x20','ytmp2','videoId','798344oRfnvx','❌\x20Please\x20provide\x20a\x20Query\x20or\x20Youtube\x20URL!','mp2','5NtVqwu','❌\x20Download\x20link\x20not\x20found!','../command','../config','1123374AYFJGi'];_0x1ee1=function(){return _0x4ce9f3;};return _0x1ee1();}
+const ytdl = require('ytdl-core');
+const { cmd } = require('../command'); // Adjust path if needed
+
+cmd({
+  pattern: 'play',
+  alias: ['song', 'play2', 'mp2'],
+  react: '🎵',
+  desc: 'Download audio from YouTube',
+  category: 'download',
+  use: '.play <text or YouTube URL>',
+  filename: __filename
+}, async (conn, m, msg, { from, q, reply }) => {
+  try {
+    if (!q) return await reply('❌ Please provide a song name or YouTube URL.');
+
+    let videoUrl = '';
+
+    if (ytdl.validateURL(q)) {
+      videoUrl = q;
+    } else {
+      // Search on YouTube using a public search API or library
+      // Using simple fetch workaround (optional improvement)
+      const ytSearch = require('yt-search');
+      const search = await ytSearch(q);
+      if (!search.videos.length) return await reply('❌ No results found!');
+      videoUrl = search.videos[0].url;
+    }
+
+    const info = await ytdl.getInfo(videoUrl);
+    const format = ytdl.chooseFormat(info.formats, { quality: 'highestaudio' });
+
+    if (!format?.url) return await reply('❌ Download link not found!');
+
+    await reply('⏳ Downloading your song...');
+
+    await conn.sendMessage(from, {
+      audio: { url: format.url },
+      mimetype: 'audio/mpeg',
+      fileName: `${info.videoDetails.title}.mp3`
+    }, { quoted: msg });
+
+  } catch (err) {
+    console.error(err);
+    await reply('❌ Error: ' + (err.message || 'Something went wrong!'));
+  }
+});

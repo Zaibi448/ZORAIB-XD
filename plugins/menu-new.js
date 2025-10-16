@@ -18,7 +18,7 @@ cmd({
         
         const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ╔═══════◇◆◇═══════╗
-『ZORAIBXHASSAN』
+『`ZORAIBXHASSAN`』
 ╚═══════◇◆◇═══════╝
 ⟬★⟭────────────────
 ⟬★⟭ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡

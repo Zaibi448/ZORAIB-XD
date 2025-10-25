@@ -13,7 +13,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Arslan-MD/Arslan_MD';
+    const githubRepoURL = 'https://github.com/Zaibi448/ZORAIB-XD';
 
     try {
         // Extract username and repo name from the URL
@@ -40,7 +40,7 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363401862633795@newsletter',
+                    newsletterJid: '120363405633935764@newsletter',
                     newsletterName: 'ZORAIB-XD',
                     serverMessageId: 143
                 }
@@ -58,7 +58,7 @@ async (conn, mek, m, { from, reply }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363401862633795@newsletter',
+                    newsletterJid: '120363405633935764@newsletter',
                     newsletterName: 'ZORAIB-XD',
                     serverMessageId: 143
                 }

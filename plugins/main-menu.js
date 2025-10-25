@@ -346,14 +346,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yrpxq6.jpg' },
+                image: { url: config.MENU_IMAGE_URL || 'https://bumpy-coral-egnhazoogd.edgeone.app/20251024_200812.jpg' },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363401862633795@newsletter',
+                        newsletterJid: '120363405633935764@newsletter',
                         newsletterName: config.BOT_NAME,
                         serverMessageId: 143
                     }

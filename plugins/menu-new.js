@@ -17,12 +17,12 @@ cmd({
         
         const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
 ╔═══════◇◆◇═══════╗
-『𝗨𝗟𝗧𝗜𝗠𝗔𝗧𝗘 𝗕𝗢𝗧 𝗠𝗘𝗡𝗨』
+『`ZORAIBXHASSAN`』
 ╚═══════◇◆◇═══════╝
 ⟬★⟭────────────────
 ⟬★⟭ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡
 ⟬★⟭────────────────
-│ 👑  Owner » *ARSLAN*
+│ 👑  Owner » *ZORAIB*
 │ 🤖  Baileys » *Multi Device*
 │ 💻  Type » *NodeJs*
 │ 🚀  Platform » *Heroku*
@@ -286,7 +286,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363401862633795@newsletter',
+                newsletterJid: '120363405633935764@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -298,7 +298,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yrpxq6.jpg' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/rnumu3.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
@@ -643,7 +643,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yrpxq6.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/rnumu3.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },

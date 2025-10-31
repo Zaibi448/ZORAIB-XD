@@ -73,7 +73,7 @@ cmd({
         await conn.sendMessage(
             from,
             {
-                image: { url: config.MENU_IMAGE_URL || 'https://bumpy-coral-egnhazoogd.edgeone.app/20251024_200812.jpg' },
+                image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yrpxq6.jpg' },
                 caption: menuText,
                 contextInfo: {
                     mentionedJid: [m.sender],

@@ -134,7 +134,7 @@
 ---
  ## 📞 Contact & Support
 
-### Project Owner: Erfan Ahmad
+### Project Owner: Zoraib Kashmiri
 <a href='https://wa.me/+9203247947238?text=*HELLO+ZORAIB+KASHMIRI+ɪ+ɴᴇᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+ZORAIB-XD+ʀᴇᴘᴏ!!*' target="_blank">
   <img alt='WhatsApp' src='https://img.shields.io/badge/Contact_Owner-25D366?style=for-the-badge&logo=whatsapp&logoColor=white'/>
 </a>

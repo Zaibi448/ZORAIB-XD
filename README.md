@@ -1,212 +1,175 @@
-<h1 align="center" style="font-family: 'Orbitron', sans-serif; font-size: 42px; color: #00FFFF; text-shadow: 4 0 10px #00FFFF, 0 0 25px #0088FF;">
-ZORAIB-XD
-</h1>
 
+<div align="center">
+  
+<h2 style="color:#3498DB">ZORAIB-XD </h2>
+<h4 style="color:#3498DB">WITH 100+ FEATURES</h4>
+
+</div>
+
+<!-- Glowing CTA Button -->
+<a href="https://github.com/Zaibi448/ZORAIB-XD">
+  <img src="https://readme-typing-svg.demolab.com?font=Comfortaa&size=20&duration=2500&pause=1000&color=FF9D00&background=FFFFFF00&center=true&vCenter=true&width=500&repeat=true&lines=%F0%9F%94%A5+FORK+%F0%9F%8D%B4+%26+STAR+%F0%9F%8C%9F+TO+SUPPORT+%F0%9F%94%A5" alt="CTA">
+</a>
+
+</div>
+```
 ---
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=24&duration=4000&pause=1000&color=FF0000&center=true&vCenter=true&width=500&lines=ULTIMATE+WHATSAPP+BOT;MULTI-DEVICE+SUPPORT;POWERED+BY+BAILEYS;FAST++SECURE++RELIABLE" alt="Typing SVG"/>
+> **CURRENT BOT VERSION ➜ `1.0.0 ⚡`**
+---
+
+
+
+
+
+  <p align="center">
+<a href="https://github.com/mrfrank-ofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/Zaibi448?color=blue&style=flat-square"></a>
+<a href="https://github.com/Zaibi448/ZORAIB-XD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Zaibi448/ZORAIB-XD?color=blue&style=flat-square"></a>
+<a href="https://github.com/Zaibi448/ZORAIB-XD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Zaibi448/ZORAIB-XD?color=blue&style=flat-square"></a>
+<a href="https://github.com/Zaibi448/ZORAIB-XD/"><img title="Size" src="https://img.shields.io/github/repo-size/ZORAIB-XD/ZORAIB-BOT?style=flat-square&color=green"></a>
+<a href="https://github.com/Zaibi448/ZORAIB-XD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
-
----
-
-<h2 align="center">📊 ZORAIB-XD Analytics </h2> 
-
----
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=JawadYT36&label=Profile+Views&color=ff00ff&style=flat-square" />
-<img src="https://img.shields.io/github/stars/Zaibi448/ZORAIB-XD?color=ff00ff&style=flat-square" />
-<img src="https://img.shields.io/github/forks/Zaibi448/ZORAIB-XD?color=ff00ff&style=flat-square" />
-<img src="https://img.shields.io/github/repo-size/Zaibi448/ZORAIB-XD?color=ff00ff&style=flat-square" />
-<img src="https://img.shields.io/github/last-commit/Jaibi448/ZORAIB-XD?color=ff00ff&style=flat-square" />
-
-</div>
-
----
-
-> **Deploy New Version `5.0.0`**  
-
----
-
-
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Zaibi448/ZORAIB-XD/refs/heads/main/khanmd.jpg" width="300" style="border-radius: 20px; box-shadow: 0 0 20px #00ffff;"/>
-</div>
-
----
-
-<h2 align="center">🛰️ Deployment Steps</h2>
-
-<div style="background: #000000; border: 1px solid #00ffff; border-radius: 15px; padding: 20px; box-shadow: 0 0 15px #00ffff; margin-bottom: 30px;">
-
-  <div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 4px solid #ff00ff;">
-    <p style="color: #00ffff; font-size: 16px;">🚀 First, star & fork the repo using the button below:</p>
-    <a href='https://github.com/Zaibi448/ZORAIB-XD/fork' target="_blank">
-      <img src='https://img.shields.io/badge/FORK_REPOSITORY-008000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000'/>
-    </a>
-  </div>
-
-</div>
-
-<div style="background: #000000; border: 1px solid #ff00ff; border-radius: 15px; padding: 20px; box-shadow: 0 0 15px #ff00ff; margin-bottom: 30px;">
-
-  <div style="background: #111111; padding: 15px; border-radius: 10px; border-left: 4px solid #00ffff;">
-    <p style="color: #ff00ff; font-size: 16px;">📦 Next, deploy using your preferred method (Heroku, Railway, etc.)</p>
-    <ul style="color: #ffffff; line-height: 1.6;">
-      <li>📁 Clone or fork the repository</li>
-      <li>⚙️ Add your <code>.config</code> variables</li>
-      <li>🚀 Deploy using platform buttons or manual setup</li>
-    </ul>
-  </div>
-
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=30&pause=1000&color=5865F2&center=true&width=800&height=80&lines=MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+ZORAIB+KASHMIRI" alt="Bot Intro">
+</p>
   
----
+--- 
 
-## 🚀 Pairing Dashboard
+<a center="https://ibb.co/GvT68BsK"><img src="https://files.catbox.moe/l0087k.jpg" alt="glow" border="0"></a>
+***
 
-> Securely link your device using the official ZORAIB-XD pairing portals below: if connection issues may require vpn activation to fix this issue.
 
-<div align="center" style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; padding:20px;">
 
-  <!-- Link 1 -->
-  <div style="background:#0f0f0f; border:2px solid #00FFFF; border-radius:10px; padding:15px 25px; box-shadow:0 0 12px #00ffff; min-width:250px; text-align:center;">
-    <p style="color:#ffffff; font-family:sans-serif; margin-bottom:8px;">
-      🔗 <strong>Pairing Server 01</strong>
-    </p>
-    <a href="https://tranquil-castle-69730-94f78752beee.herokuapp.com/" target="_blank">
-      <img src="https://img.shields.io/badge/PAIR_CODE_1-F0AF35?style=for-the-badge&logo=matrix&logoColor=white&labelColor=0d0d0d"/>
-    </a>
-  </div>
+
+### 1. FORK THIS REPOSITORY🌝🤏
+
+`FORK 🍴 AND STAR ⭐ IF YOU LIKE THIS BOT`
+
+  <a href="https://github.com/Zaibi448/ZORAIB-XD/fork"><img title="DARKZONE-MD" src="https://img.shields.io/badge/FORK-ZORAIB%20XD-MDh?color=indigo&style=for-the-badge&logo=stackshare"></a>
   
+### 2. GET SESSION ID 
+
+`IF YOU DON'T HAVE YOUR SESSION_ID SO U CAN GET IT CLICK ON SESSION_ID BUTTON AND PASTE YOUR NUMBER With COUNTRY CODE EXAMPLE:92300xxxxxx THEN YOU CAN GET YOUR SESSION_ID ✠`
+
+
+> **1. PAIR CODE SESSION ID**
+
+<a href='https://tranquil-castle-69730-94f78752beee.herokuapp.com/pair' target="_blank">
+  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
+</a>
+<br> 
+
+> **2. PAIR CODE SESSION ID**
+
+<a href='https://tranquil-castle-69730-94f78752beee.herokuapp.com/pair' target="_blank">
+  <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-darkpink?style=for-the-badge&logo=opencv&logoColor=black'/>
+</a>
+<br> 
+
+
+
 ---
 
-## 📡 DEPLOYMENT SITES
+### <h2 align="">ZORAIB-XD DEPLOYMENT OPTIONS𐃁</h2>
+
+---
 
 <p align="center">Deploy your <strong>ZORAIB-XD Bot</strong> with one click on your favorite hosting platforms.</p>
-
 
 <div align="center">
   <table>
     <tr>
+      <td><a href="https://vps-site-555d32e92251.herokuapp.com/" target="_blank"><img src="https://img.shields.io/badge/FREE-VPS-FFA500?style=for-the-badge&logo=serverless&logoColor=white&labelColor=000000"/></a></td>
       <td><a href="https://dashboard.heroku.com/new?template=https://github.com/Zaibi448/ZORAIB-XD" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
+    </tr>
+    <tr>
       <td><a href="https://talkdrove.com" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=ZORAIB-XD/ZORAIB-XD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
     </tr>
     <tr>
-      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=Zaibi448/ZORAIB-XD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
       <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://dashboard.render.com/web/new" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
     </tr>
     <tr>
-      <td><a href="https://dashboard.render.com/web/new" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
       <td><a href="https://app.netlify.com/" target="_blank"><img src="https://img.shields.io/badge/Netlify-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
     </tr>
   </table>
 </div>
 
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://github.com/Zaibi448/ZORAIB-XD" target="_blank">
+        <img alt="View Workflow Codes" src="https://img.shields.io/badge/View-Workflow%20Codes-FF0076?style=for-the-badge&logo=gitlab&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+</table>  
 
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://github.com/Zaibi448/ZORAIB-XD" target="_blank">
+        <img alt="Deploy From New Repo" src="https://img.shields.io/badge/Deploy-New%20Version-4CAF50?style=for-the-badge&logo=vercel&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+</table>  
 
-## ✨ ZORAIB-XD Features
-
-- 🤖 WhatsApp Multi-Device Support
-- 🔁 Anti-Delete (Text + Media)
-- 🎵 YouTube Audio Downloader
-- 📥 Media Downloader (Instagram, TikTok, etc.)
-- 🧠 AI Chatbot
-- 💬 Group Moderation Commands
-- 📛 Auto Sticker Response
-- 🎮 Word Relay & Game Plugins
-- 👮 Admin Tools (Ban, Kick, Promote)
-- 🌐 Web-based Pairing Interface
-- 📤 Sticker Maker (Image to Sticker)
-
+<hr>
+<p align="center"><i>✨ Keep your bot updated regularly to enjoy the latest features and patches.</i></p>
 ---
 
-<h2 align="center" style="color:#25D366; font-family:monospace; font-size:26px;">
-🪀 OFFICIAL SUPPORT CHANNEL
-</h2>
+## ✨ Key Features
+<div align="center">
 
-<div align="center" style="margin-top: 15px; margin-bottom: 15px; background:#0e0e0e; padding: 20px; border-radius: 12px; border: 2px solid #25D366; box-shadow: 0 0 15px #25D366; width: 95%;">
+| Category       | Features                                                                 |
+|----------------|--------------------------------------------------------------------------|
+| **`🌐 Core`**       | `📱` Multi-Device Support • `↩️` Anti-Delete • `🤖` AI Chatbot                          |
+| **`🎨 Media`**      | `▶️` YouTube Downloader • `📸` Instagram/TikTok DL • `🖼️` Sticker Maker         |
+| **`👥 Group`**      | `🛡️` Moderation • `✨` Auto-Sticker • `🎮` Games • `👮` Admin Tools    |
+| **`⚙️ Utilities`**  | `🌐` Web Pairing • `🔑` QR Login • `📢` Broadcast • `➕` More!                 |
 
-<p style="color:#e0e0e0; font-size:14px; font-family:sans-serif;">
-📢 Get updates, fixes, and sneak peeks directly from the official channel.
-</p>
+</div>
+---
+ ## 📞 Contact & Support
 
-<a href="https://whatsapp.com/channel/0029Vb78vnmF1YlbYkIu102f" target="_blank">
-  <img src="https://img.shields.io/badge/JOIN_CHANNEL-NOW-8A2BE2?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=111111" alt="Join WhatsApp Channel"/>
+### Project Owner: Erfan Ahmad
+<a href='https://wa.me/+9203247947238?text=*HELLO+ZORAIB+KASHMIRI+ɪ+ɴᴇᴇᴅ+ʜᴇʟᴘ!.+ɪ+ᴍᴇssᴀɢᴇᴅ+ʏᴏᴜ+ғʀᴏᴍ+ZORAIB-XD+ʀᴇᴘᴏ!!*' target="_blank">
+  <img alt='WhatsApp' src='https://img.shields.io/badge/Contact_Owner-25D366?style=for-the-badge&logo=whatsapp&logoColor=white'/>
 </a>
 
-</div>
+### Join Our Community
+[![WhatsApp Group](https://img.shields.io/badge/Join_Group-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb78vnmF1YlbYkIu102f)
+[![WhatsApp Channel](https://img.shields.io/badge/Join_Channel-25D366?style=for-the-badge&logo=whatsapp)](https://whatsapp.com/channel/0029Vb78vnmF1YlbYkIu102f)
 
 ---
+***
 
-<h2 align="center" style="color:#9D00FF; font-family:monospace; font-size:26px;">
-🧾 PROJECT STATS ZORAIB-XD
-</h2>
+<div align="center">
 
-<div align="center" style="margin-top: 12px; margin-bottom: 20px; background:#0b0b0b; padding: 25px; border-radius: 12px; border: 2px solid #9D00FF; box-shadow: 0 0 20px #9D00FF; width: 95%;">
+<!-- Animated Sparkle Divider -->
+<img src="https://i.giphy.com/media/XcQ0XH32ya0Gs3QNwk/giphy.webp" width="450" alt="sparkle-divider">
 
-<a href="https://github.com/Zaibi448" target="_blank">
-  <img src="https://github-readme-stats.;vercel.app/api?username=Zaibi448&show_icons=true&theme=tokyonight&border_color=9D00FF&title_color=00ffff&icon_color=00ffff&text_color=ffffff" width="420" alt="GitHub Stats"/>
+<!-- Enhanced Glowing CTA Button -->
+<a href="https://github.com/Zaibi448/ZORAIB-XD/fork">
+  <img src="https://readme-typing-svg.demolab.com?font=Comfortaa&size=22&duration=2000&pause=500&color=FF9D00&background=1A1A1A&center=true&vCenter=true&width=550&repeat=true&lines=%E2%9A%A0%EF%B8%8F++FORK++%F0%9F%8D%B4++%26++STAR++%F0%9F%8C%9F++TO++SUPPORT++%E2%9A%A0%EF%B8%8F;%F0%9F%94%A5++HELP++GROW++THE++PROJECT++%F0%9F%94%A5" alt="CTA">
 </a>
 
-</div>
-
----
-
-<h2 align="center" style="color:#ff00ff; font-family:monospace; font-size:26px;">
-🧠 DEVELOPER NOTICE
-</h2>
-
-<div align="center" style="background:#0d0d0d; border:2px dashed #ff00ff; border-radius:12px; padding:20px; width:90%; box-shadow:0 0 15px #ff00ff;">
-
-<p style="color:#ffffff; font-size:15px; font-family:sans-serif;">
-🚫 This project is <strong>NOT FOR SALE</strong> and is provided for educational and personal use only.<br><br>
-📛 <strong>Do not use without giving proper credit</strong> to the original author.<br><br>
-🛑 Unauthorized selling, re-uploading, or branding as your own is strictly prohibited.
-</p>
+<!-- New Feature Badges -->
+<div style="margin-top:25px">
+  
+[![GitHub Forks](https://img.shields.io/badge/FORKS-%3F-00FFAA?style=for-the-badge&logo=github&labelColor=1A1A1A)](https://github.com/Zaibi448/ZORAIB-XD/fork)
+[![GitHub Stars](https://img.shields.io/badge/STARS-%3F-00BFFF?style=for-the-badge&logo=github&labelColor=1A1A1A)](https://github.com/Zaibi448/ZORAIB-XD)
+[![Active](https://img.shields.io/badge/STATUS-ACTIVE-00FF00?style=for-the-badge&logo=vercel)](https://github.com/Zaibi448/ZORAIB-XD)
 
 </div>
 
----
+<!-- New Animated Contributors -->
+<div style="margin-top:20px">
 
-## 📜 DISCLAIMER
-
-<div align="center" style="background-color:#0f0f0f; border:2px solid #00ffff; border-radius:10px; padding:20px; box-shadow:0 0 10px #00ffff;">
-
-<h3 style="color:#00ffff; font-family:monospace;">📌 Read Carefully</h3>
-
-<p style="color:#ffffff; font-size:14px;">
-This bot is <strong>not affiliated with WhatsApp Inc.</strong><br>
-Use at your own risk. We are <strong>not responsible</strong> for any misuse, abuse, or ban that results from improper use.<br>
-Inspired by the original work of <strong>Balleys</strong>, and enhanced by the community.
-</p>
+[![Contributors](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=58A6FF&background=00000000&center=true&vCenter=true&width=500&lines=THANKS+TO+ALL+CONTRIBUTORS+%F0%9F%99%8F;SPECIAL+THANKS+TO+OUR+STAR+SUPPORTERS+%E2%AD%90)](https://github.com/Zaibi448/ZORAIB-XD/graphs/contributors)
 
 </div>
 
----
-
-## 📝 LICENSE
-
-<div align="center" style="background-color:#101010; border:2px solid #888888; border-radius:10px; padding:15px; box-shadow:0 0 5px #666666;">
-
-<p style="color:#ffffff; font-size:14px;">
-This project is licensed under the <strong>Apache License 2.0</strong><br>
-You are free to use, modify, and distribute it under the terms of this license.
-</p>
-
-<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">
-  <img src="https://img.shields.io/badge/License-Apache_2.0-ff69b4?style=for-the-badge&logo=apache" />
-</a>
-
 </div>
-
----
-
-<h3 align="center">🙏 Thanks for using!</h3>
-<p align="center">
-  If you like this project, consider giving it a ⭐ on GitHub.<br>
-  Made with ❤️ by <a href="https://github.com/Zaibi448">ZORAIB-XD</a>
-</p>

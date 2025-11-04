@@ -46,11 +46,6 @@
 `FORK 🍴 AND STAR ⭐ IF YOU LIKE THIS BOT`
 
   <a href="https://github.com/Zaibi448/ZORAIB-XD/fork"><img title="DARKZONE-MD" src="https://img.shields.io/badge/FORK-ZORAIB%20XD-MDh?color=indigo&style=for-the-badge&logo=stackshare"></a>
-  
-### 2. GET SESSION ID 
-
-`IF YOU DON'T HAVE YOUR SESSION_ID SO U CAN GET IT CLICK ON SESSION_ID BUTTON AND PASTE YOUR NUMBER With COUNTRY CODE EXAMPLE:92300xxxxxx THEN YOU CAN GET YOUR SESSION_ID ✠`
-
 
 > **1. PAIR CODE SESSION ID**
 

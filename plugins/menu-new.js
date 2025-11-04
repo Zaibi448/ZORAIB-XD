@@ -22,7 +22,7 @@ cmd({
 ⟬★⟭────────────────
 ⟬★⟭ 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡
 ⟬★⟭────────────────
-│ 👑  Owner » *ARSLAN*
+│ 👑  Owner » *Zoraib*
 │ 🤖  Baileys » *Multi Device*
 │ 💻  Type » *NodeJs*
 │ 🚀  Platform » *Heroku*
@@ -643,7 +643,7 @@ cmd({
                                 await conn.sendMessage(
                                     senderID,
                                     {
-                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yrpxq6.jpg' },
+                                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/6q0eul.jpg' },
                                         caption: selectedMenu.content,
                                         contextInfo: contextInfo
                                     },

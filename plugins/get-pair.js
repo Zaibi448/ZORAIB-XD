@@ -5,9 +5,9 @@ cmd({
     pattern: "pair",
     alias: ["getpair", "clonebot"],
     react: "✅",
-    desc: "Get pairing code for ZORAIB-XD bot",
+    desc: "Get pairing code for ZORAIB-XD~ bot",
     category: "download",
-    use: ".pair 923237045XXX",
+    use: ".pair 923423706XXX",
     filename: __filename
 }, async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, senderNumber, reply }) => {
     try {
@@ -16,11 +16,11 @@ cmd({
 
         // Validate phone number format
         if (!phoneNumber || phoneNumber.length < 10 || phoneNumber.length > 15) {
-            return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 923237045XXX`");
+            return await reply("❌ Please provide a valid phone number without `+`\nExample: `.pair 923235906XXX`");
         }
 
         // Make API request to get pairing code
-        const response = await axios.get(`https://arslan-md-web.onrender.com/code?number=${encodeURIComponent(phoneNumber)}`);
+        const response = await axios.get(`https://qadeer-ai-pair.onrender.com/code?number=${encodeURIComponent(phoneNumber)}`);
 
         if (!response.data || !response.data.code) {
             return await reply("❌ Failed to retrieve pairing code. Please try again later.");

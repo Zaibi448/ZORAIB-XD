@@ -66,27 +66,56 @@ const {
   setInterval(clearTempDir, 5 * 60 * 1000);
   
   //===================SESSION-AUTH============================
-if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
-    if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-    
-    const sessdata = config.SESSION_ID.replace("ZORAIB-XD~", '');
-    try {
-        // Decode base64 string
-        const decodedData = Buffer.from(sessdata, 'base64').toString('utf-8');
-        
-        // Write decoded data to creds.json
-        fs.writeFileSync(__dirname + '/sessions/creds.json', decodedData);
-        console.log("Session loaded ✅");
-    } catch (err) {
-        console.error("Error decoding session data:", err);
-        throw err;
+  if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
+    if (config.SESSION_ID && config.SESSION_ID.trim() !== "") {
+        const sessdata = config.SESSION_ID.replace("ZORAIB-XD~", '');
+        try {
+            // Decode base64 string
+            const decodedData = Buffer.from(sessdata, 'base64').toString('utf-8');
+            
+            // Write decoded data to creds.json
+            fs.writeFileSync(__dirname + '/sessions/creds.json', decodedData);
+            console.log("✅ Session loaded from SESSION_ID");
+        } catch (err) {
+            console.error("❌ Error decoding session data:", err);
+            throw err;
+        }
+    } else {
+        // Agar SESSION_ID nahi hai to pairing system. Arslan-MD
+        console.log("⚡ No SESSION_ID found → Using Pairing System");
+
+        (async () => {
+            const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions');
+            const sock = makeWASocket({
+                auth: state,
+                printQRInTerminal: false,
+            });
+
+            if (!state.creds?.me) {
+                rl.question("📱 Enter your WhatsApp number with country code: ", async (number) => {
+                    try {
+                        const code = await sock.requestPairingCode(number);
+                        console.log("🔑 Your Pairing Code:", code);
+                        console.log("➡️ Enter this code in WhatsApp to link your bot device.");
+                    } catch (err) {
+                        console.error("❌ Error generating pairing code:", err);
+                    }
+                });
+            }
+
+            sock.ev.on("creds.update", saveCreds);
+            sock.ev.on("connection.update", ({ connection }) => {
+                if (connection === "open") {
+                    console.log("✅ Bot Connected Successfully via Pairing!");
+                }
+            });
+        })();
     }
 }
 
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 9090;
-  
   //=============================================
   
   async function connectToWA() {

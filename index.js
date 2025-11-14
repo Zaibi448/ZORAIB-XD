@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['9203247947238']
+  const ownerNumber = ['923142854207']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -66,56 +66,27 @@ const {
   setInterval(clearTempDir, 5 * 60 * 1000);
   
   //===================SESSION-AUTH============================
-  if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
-    if (config.SESSION_ID && config.SESSION_ID.trim() !== "") {
-        const sessdata = config.SESSION_ID.replace("ZORAIB-XD~", '');
-        try {
-            // Decode base64 string
-            const decodedData = Buffer.from(sessdata, 'base64').toString('utf-8');
-            
-            // Write decoded data to creds.json
-            fs.writeFileSync(__dirname + '/sessions/creds.json', decodedData);
-            console.log("✅ Session loaded from SESSION_ID");
-        } catch (err) {
-            console.error("❌ Error decoding session data:", err);
-            throw err;
-        }
-    } else {
-        // Agar SESSION_ID nahi hai to pairing system. Arslan-MD
-        console.log("⚡ No SESSION_ID found → Using Pairing System");
-
-        (async () => {
-            const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions');
-            const sock = makeWASocket({
-                auth: state,
-                printQRInTerminal: false,
-            });
-
-            if (!state.creds?.me) {
-                rl.question("📱 Enter your WhatsApp number with country code: ", async (number) => {
-                    try {
-                        const code = await sock.requestPairingCode(number);
-                        console.log("🔑 Your Pairing Code:", code);
-                        console.log("➡️ Enter this code in WhatsApp to link your bot device.");
-                    } catch (err) {
-                        console.error("❌ Error generating pairing code:", err);
-                    }
-                });
-            }
-
-            sock.ev.on("creds.update", saveCreds);
-            sock.ev.on("connection.update", ({ connection }) => {
-                if (connection === "open") {
-                    console.log("✅ Bot Connected Successfully via Pairing!");
-                }
-            });
-        })();
+if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
+    if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
+    
+    const sessdata = config.SESSION_ID.replace("ZORAIB-XD~", '');
+    try {
+        // Decode base64 string
+        const decodedData = Buffer.from(sessdata, 'base64').toString('utf-8');
+        
+        // Write decoded data to creds.json
+        fs.writeFileSync(__dirname + '/sessions/creds.json', decodedData);
+        console.log("Session loaded ✅");
+    } catch (err) {
+        console.error("Error decoding session data:", err);
+        throw err;
     }
 }
 
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 9090;
+  
   //=============================================
   
   async function connectToWA() {
@@ -150,7 +121,7 @@ const port = process.env.PORT || 9090;
   console.log('Bot connected to whatsapp ✅')
   
   let up = `*Hello there ZORAIB-XD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet BarbieX-MD WhatsApp Bot.\n\n *Thanks for using ZORAIB-XD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb6Qyym7YSd3VRCxQ1B \n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/Zaibi448/ZORAIB-XD.git\n\n> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ZORAIB KASHMIRI Official ❣️ \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/6q0eul.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/fqz28g.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -237,7 +208,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('923247947238', '923247947238', '923247947238');
+    const jawad = ('923462054847', '923462054847', '923462054847');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
